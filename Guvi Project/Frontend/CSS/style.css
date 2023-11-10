@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    background-image: url('../IMAGES/bg5.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2) ;
+    border-radius: 10x;
+    background: transparent;
+    color: #f4f4f4;
+    backdrop-filter:blur(40px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+h2{
+    font-size: 26px;
+    text-align: center;
+}
+
+input {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3) ;
+    border-radius: 10x;
+    background: transparent;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    outline: none;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+
+
+.Register{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.Register a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Register a:hover{
+    text-decoration: underline;
+}
